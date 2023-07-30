@@ -10,7 +10,7 @@ def resp(input_text):
     user_message = str(input_text).lower()
 
     if user_message in ("hi","hello"):
-        return "Hi, I am Aishwarya. My Master LORD NIRAJ created me!!!"
+        return "Hi, I am Aishwarya. Ask me anything!!!"
     if user_message in ("time","time?"):
         now = datetime.now()
         date_time = now.strftime("%d/%m/%y, %H:%M:%S")
