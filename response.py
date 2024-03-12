@@ -4,8 +4,6 @@ import requests
 import json
 import os
 
-#api_key = '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'
-
 def resp(input_text):
     user_message = str(input_text).lower()
 
@@ -18,7 +16,7 @@ def resp(input_text):
     else:
 
         
-        api_key = ('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')
+        api_key = ('YOUR API KEY')
 
         # Set the OpenAI API key
         openai.api_key = api_key
